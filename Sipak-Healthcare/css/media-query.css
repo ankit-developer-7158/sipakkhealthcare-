@@ -1,0 +1,145 @@
+/* media-query css start here */
+
+@media (max-width: 576px) {
+
+    .top-band .head span,
+    .head a {
+        text-decoration: none;
+        margin-left: 20px;
+        color: #05e3df;
+        font-size: 13px;
+    }
+
+    .top-band .social_icon li {
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+
+    #slider .owl-item h5 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    #slider .owl-item h2 {
+        font-size: 31px;
+        line-height: 29px;
+    }
+
+    /* #slider .owl-item h2 {
+        font-size: 33px;
+        line-height: 28px;
+    } */
+
+    #slider .owl-item p {
+        font-size: 14px;
+        padding: 0% !important;
+        margin-bottom: 0% !important;
+    }
+    #slider .owl-item a{
+padding: 8px 20px;
+    }
+
+    .owl-theme .owl-dots {
+        top: 88%;
+        left: 44.5%;
+    }
+
+    .our_site h2 {
+        font-size: 32px;
+        padding: 0% !important;
+    }
+    .latest .info h5{
+        font-size: 27px;
+    }
+    .latest .info p{
+        font-size: 18px;
+    }
+    .latest .info .mini img {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+    }
+    .latest .info .mini h6 {
+        font-size: 25px;
+        padding-right: 0% !important;
+    }
+    .latest .info .mini h6 span {
+        font-size: 19px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    #slider .owl-item h2 {
+        font-size: 42px;
+        line-height: 38px;
+    }
+    #slider .owl-item h5{
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .about-section {
+        padding: 0% !important;
+    }
+
+    .about-section .image {
+        padding: 0% !important;
+        margin-top: 60px;
+    }
+
+    .about-section .image img {
+        height: 300px;
+    }
+
+    .about-section h4 {
+        font-size: 24px;
+    }
+
+    .about-section h2 {
+        font-size: 31px;
+        padding: 0% !important;
+    }
+
+    .about-section p {
+        line-height: 21px;
+        padding: 0% !important;
+    }
+
+    .about-section a {
+        padding: 10px 12px;
+    }
+
+    .latest p{
+        font-size: 15px;
+    }
+    .latest .info h5{
+        font-size: 22px;
+        padding-left: 35px;
+        padding-top: 0% !important;
+    }
+    .latest .info p{
+        padding-left: 35px;
+        padding-bottom: 0% !important;
+    }
+    .latest .info .mini img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+    }
+    .latest .info .mini h6 {
+        font-size: 15px;
+        padding-right: 0% !important;
+    }
+    .latest .info .mini h6 span{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 992px){
+    #slider .owl-item h2 {
+        font-size: 42px;
+        line-height: 38px;
+    }
+}
